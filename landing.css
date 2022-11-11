@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(img/Purple\ Blue\ Retro\ Gaming\ Desktop\ Wallpaper.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  display: inline-block;
+  letter-spacing: 4px;
+  width: 100%;
+  height: 20%;
+}
+header {
+  background: #23085a8c;
+}
+header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: rgb(13, 2, 10);
+}
+header nav .logo span {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 1px 28px #ffffff;
+}
+nav {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 1rem 0 0;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: cursive;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 2px black;
+}
+nav ul li a:hover {
+  color: #570853;
+}
+
+form {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  padding: 1rem;
+  margin-left: 2rem;
+  width: 85%;
+  background: linear-gradient(to right, rgb(13, 2, 10), #570853);
+  border-radius: 1rem;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+label[for="search-box"] {
+  padding: 0.3rem;
+  color: #eee;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+input {
+  outline: 0;
+  transition: box-shadow 1s;
+}
+input:focus {
+  box-shadow: 0 0 4px 3px #950c8e;
+}
+form button {
+  outline: 0;
+  border: 0;
+  margin-left: 0.7rem;
+  width: 5rem;
+  height: 1.6rem;
+  background: darkred;
+  color: #fff;
+}
+form button[name="sign-in"] {
+  outline: 0;
+  border: 0;
+  margin-left: 0.7rem;
+  width: 5rem;
+  height: 1.6rem;
+  background: darkgreen;
+  color: #fff;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+.cards {
+  display: flex;
+  width: 80vw;
+  height: fit-content;
+  margin: 4rem;
+  border: 4px solid;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

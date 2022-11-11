@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+@media screen (max-width: 500px) {
+  body {
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+body {
+  background: url(img/Purple\ Blue\ Retro\ Gaming\ Desktop\ Wallpaper.png);
+  height: 100vh;
+  background-size: cover;
+}
+.form-center {
+  position: relative;
+  width: 100%;
+}
+.form-center form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 3rem;
+  transform: translate(-50%, 40%);
+  border: 3px solid slateblue;
+  background-color: rgba(0, 0, 0, 0.838);
+}
+
+label {
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+input {
+  display: block;
+  margin: 0.3rem 1rem 1.5rem 0.5rem;
+  padding: 0.5rem;
+  transition: border 0.7s, box-shadow 0.9s;
+  outline: 0;
+  border: 0;
+  background: darkslategrey;
+}
+input:focus {
+  box-shadow: 0 0 2px 5px turquoise;
+  border: 1px solid turquoise;
+}
+button a {
+  color: #fff;
+}
+button {
+  padding: 0.4rem;
+  margin: 0 0 0.5rem 1rem;
+}
+button[type="submit"] {
+  background: darkcyan;
+  color: #fff;
+}
+button[type="reset"] {
+  background: crimson;
+  color: #fff;
+}
+button[type="submit"],
+button[type="reset"] {
+  outline: 0;
+  border: 0;
+}
